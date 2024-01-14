@@ -1,0 +1,460 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 600vh;
+    background-color: #101022;
+    background-image: url(https://cdn.shopify.com/s/files/1/0644/9093/0396/t/23/assets/back.png?v=95746751235174240271674545038);
+    
+}
+
+#main
+{
+    width: 100%; 
+    overflow: hidden;
+}
+#nav1
+{
+    width: 100%;
+    height: 6vh;
+    background-color:#7950F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav1 p 
+{
+    font-size: 20px;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-family: 'gilroy';
+}
+
+#first
+{
+    width: 100%;
+    height: 115vh;
+    background-image: url(https://cdn.shopify.com/s/files/1/0644/9093/0396/files/DesktopHeroImage_b816aaa6-3290-427a-86d1-d122fce4684d_1980x@2x.png?v=1671121072);
+    background-size: cover ;
+}
+
+#nav2
+{
+   width: 100%; 
+   height: 15vh;
+   background-color: rgba(0, 0, 0, 0.037);
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0 20px;
+}
+
+#nav2 #left img 
+{
+    width: 22vh;
+    height: 7vh;
+}
+
+#nav2 #center
+{
+    width: 70vh;
+    height: 8vh;
+    background-color: #1C1C28;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    padding: 0 10px;
+}
+
+#nav2 #center .same
+{
+    padding: 12px 55px;
+    border-radius: 50px;
+    font-size: 20px;
+    font-family: gilroy;
+    font-weight: 700;
+    background-color: #1C1C28;
+    border: none;
+    color: #fff;
+}
+
+#center #home
+{
+    padding: 12px 55px;
+    border-radius: 50px;
+    /* border: none; */
+    font-size: 20px;
+    font-family: gilroy;
+    font-weight: 700;
+    background-color: #7950F2;
+    border: none;
+    color: #fff;
+}
+#right
+{
+    display: flex;
+    align-items: center;
+}
+
+
+#right #search
+{
+    color: #fff;
+    padding: 20px;
+    border-radius: 50%;
+    background-color: #ffffff2b;
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+#right #bag
+{
+    color: #fff;
+    padding: 20px;
+    border-radius: 50px;
+    background-color: #7950F2;
+    font-size: 20px;
+    font-weight: 100;
+    align-items: center;
+}
+
+#first #fcen
+{
+    width: 55vw;
+    position: absolute;
+    left: 22vw;
+    top: 25vw;
+    
+}
+
+#first #fcen h1
+{
+    color: #fff;
+    font-size: 90px;
+    font-family: gilroy;
+    text-align: center;
+}
+
+
+#first #fcen button
+{
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #7950F2;
+    color: #fff;
+    font-family: gilroy;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    border-radius: 50px;
+    margin: 30px 300px;
+}
+
+#first button i{
+    font-size: 25px;
+    margin-left: 10px;
+    font-weight: 100;
+}
+
+#second
+{
+    width: 66vw;
+    height: 60vw;
+    background-color: #1C1C28;
+    /* position: absolute; */
+    margin-left: 15vw;
+    border-radius: 50px;
+    margin-top: 50px;
+    /* position: absolute; */
+}
+
+#cards
+{
+    
+    width:calc(100% + 150px);
+    height: 30vw;
+    margin-left: -82px;
+    margin-top: 132px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+#cards .card
+{
+    width: 24vw;
+    height: 32vw;
+    border-radius: 30px;
+    padding: 10px;
+    background-color: #232334;
+}
+
+.card .pic 
+{
+    position: relative;
+    width: 100%;
+    height: 75%;
+    background-color: #fff;
+    border-radius: 30px;
+}
+#cards .card:nth-child(1) .pic
+{
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://cdn.shopify.com/s/files/1/0644/9093/0396/products/BuyHighSellLowt-shirtdYdXHedgiesFront.jpg?v=1671526241&width=823);
+}
+#cards .card:nth-child(2) .pic
+{
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://cdn.shopify.com/s/files/1/0644/9093/0396/products/xLogoHoodiefront.jpg?v=1671529567&width=823);
+}
+#cards .card:nth-child(3) .pic
+{
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://cdn.shopify.com/s/files/1/0644/9093/0396/products/dYdXLogocapblackfront.jpg?v=1671526591&width=823);
+} 
+
+#cards .card:nth-child(2)
+{
+    margin-top: -52px; 
+}
+
+#text
+{
+    width: 100%;
+    height: 10vh;
+    display: grid;
+    text-align: center;
+    font-family: gilroy;
+    margin-top: 12vh;
+    padding: 50px;
+}
+
+#text h3{
+    color: #A4A4AB;
+    font-size: 30px;
+}
+
+#text h1{
+    color: #fff;
+    font-size: 60px;
+}
+
+#btn
+{
+    margin-left: 25vw;
+    top: 10%;
+    position: relative;
+}
+
+#btn button{
+    display: flex;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: #7950F2;
+    color: #fff;
+    font-family: gilroy;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    border-radius: 50px;
+}
+
+#btn button i{
+    font-size: 25px;
+    margin-left: 10px;
+    font-weight: 100;
+}
+
+#neeche
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+#neeche h4 {
+    font-family: gilroy;
+    color: #ffffff38;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#neeche button{
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background: linear-gradient( to right top , #353542 , #737385);
+    color: #ffffffa0;
+    font-weight: 700;
+}
+
+#third
+{
+    width: 66vw;
+    height: 32vw;
+    background-image: linear-gradient(to bottom left , #5352BE ,#6C7CF0);
+    margin-left: 15vw;
+    margin-top: 8vw;
+    border-radius: 40px;
+    display: flex;
+}
+
+#third #text3
+{
+    width: 50%;
+    height: 100%;
+    font-family: gilroy;
+    color: #fff;
+    padding: 60px;
+} 
+#third #pic3
+{
+    width: 50%;
+    height: 100%;
+    background-image: url(https://cdn.shopify.com/s/files/1/0644/9093/0396/files/Hedgie1.png?v=1669943844&width=750);
+    background-size: cover;
+    background-position: center;
+} 
+
+#third #text3 h1{
+    font-size: 60px;
+    font-weight: 700;
+    margin-top: 40px;
+}
+
+
+#third #text3 p{
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+#third button{
+    display: flex;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: #fff;
+    color: black;
+    font-family: gilroy;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+
+#third button i{
+    font-size: 25px;
+    margin-left: 10px;
+    font-weight: 100;
+}
+
+#four
+{
+    width: 66vw;
+    height: 60vw;
+    background-image: linear-gradient(to right , #2A384A , #13162A) ;
+    margin-left: 15vw;
+    border-radius: 50px;
+    margin-top: 50px; 
+    opacity: 0.7;
+}
+
+#four #cards .card:nth-child(1) .pic
+{
+    background-size: 200px;
+    background-position: center;
+    background-image: url(https://cdn.shopify.com/s/files/1/0644/9093/0396/files/Hedgies_Logo_650x.png?v=1669277573);
+    background-repeat: no-repeat;
+}
+#four #cards .card:nth-child(2) .pic
+{
+    background-size: 200px;
+    background-position: center;
+    background-image: url(https://cdn.shopify.com/s/files/1/0644/9093/0396/files/Ledger_650x.png?v=1669277591);
+    background-repeat: no-repeat;
+}
+#four #cards .card:nth-child(3) .pic
+{
+    background-size: 200px;
+    background-position: center;
+    background-image: url(https://cdn.shopify.com/s/files/1/0644/9093/0396/files/T-Shirt_650x.png?v=1669277606);
+    background-repeat: no-repeat;
+} 
+
+#cards .card .rotate
+{
+    width: 260px;
+    position: relative;
+    background-image: linear-gradient(to top , #6b61f5 ,#8661ff);
+    height: 65px;
+    top: -74%;
+    left: 0;
+    transform: translate(-10%,-50%);
+    rotate: -13deg;
+    border-radius: 10px;
+}
+
+#cards p {
+    color: white;
+    font-family: gilroy;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px;
+
+}
+
+#textfour p
+{
+    font-family: gilroy;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: -40px;
+    text-align: center;
+}
+
+#five
+{
+    width: 66vw;
+    height: 60vw;
+    background-color: #1C1C28;
+    /* position: absolute; */
+    margin-left: 15vw;
+    border-radius: 50px;
+    margin-top: 50px;
+    /* position: absolute; */
+}
+   
+
+
+#five #cards .card:nth-child(1) .pic
+{
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://cdn.shopify.com/s/files/1/0644/9093/0396/products/3DHedgiet-shirtdYdXHedgiesFront.jpg?v=1671525631&width=823);
+}
+#five #cards .card:nth-child(2) .pic
+{
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://cdn.shopify.com/s/files/1/0644/9093/0396/products/HedgieHoodiedYdXHedgiesFront.jpg?v=1671531041&width=823);
+}
+#five #cards .card:nth-child(3) .pic
+{
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://cdn.shopify.com/s/files/1/0644/9093/0396/products/Hedgieslogocapfrontblack.jpg?v=1671527505&width=823);
+} 
+
+
